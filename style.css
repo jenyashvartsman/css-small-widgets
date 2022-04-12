@@ -1,0 +1,30 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.container {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-rows: auto;
+  gap: 20px 40px;
+}
+
+.container .card {
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.container .card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container .card ul li a {
+  text-decoration: none;
+}
