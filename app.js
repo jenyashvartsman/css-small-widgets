@@ -4,6 +4,7 @@ const features = [
     routes: [
       { label: 'Box border hover', route: 'cards/box-border-hover/' },
       { label: 'Ribbon card', route: 'cards/ribbon-card/' },
+      { label: 'Product card', route: 'cards/product-card/' },
     ],
   },
   {
