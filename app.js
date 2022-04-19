@@ -18,6 +18,7 @@ const features = [
     type: 'Inputs',
     routes: [
       { label: 'Custom checkbox', route: 'inputs/custom-checkbox/' },
+      { label: 'Custom checkbox 2', route: 'inputs/custom-checkbox-2/' },
       { label: 'Light bulb', route: 'inputs/light-bulb/' },
       { label: 'Day night switch', route: 'inputs/day-night-switch/' },
     ],
