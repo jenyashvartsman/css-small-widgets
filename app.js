@@ -27,6 +27,7 @@ const features = [
     type: 'Loaders',
     routes: [
       { label: 'Circle dots loader', route: 'loaders/circle-dots-loader/' },
+      { label: 'Fingerprint scanner', route: 'loaders/fingerprint-scanner/' },
       { label: 'Glowing loader', route: 'loaders/glowing-loader/' },
     ],
   },
