@@ -50,7 +50,10 @@ const features = [
   },
   {
     type: 'Widgets',
-    routes: [{ label: 'Calculator', route: 'widgets/calculator/' }],
+    routes: [
+      { label: 'Calculator', route: 'widgets/calculator/' },
+      { label: 'Dots hover effect', route: 'widgets/dots-hover-effect/' },
+    ],
   },
 ];
 
