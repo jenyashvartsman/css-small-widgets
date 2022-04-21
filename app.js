@@ -3,6 +3,7 @@ const features = [
     type: 'Card',
     routes: [
       { label: 'Box border hover', route: 'cards/box-border-hover/' },
+      { label: 'Gradient border card', route: 'cards/gradient-border-card/' },
       { label: 'Ribbon card', route: 'cards/ribbon-card/' },
       { label: 'Product card', route: 'cards/product-card/' },
     ],
