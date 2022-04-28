@@ -46,6 +46,7 @@ const features = [
     routes: [
       { label: 'Glowing text', route: 'text/glowing-text/' },
       { label: 'Hover text', route: 'text/hover-text/' },
+      { label: 'Wavy text', route: 'text/wavy-text/' },
     ],
   },
   {
