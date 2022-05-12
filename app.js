@@ -57,6 +57,7 @@ const features = [
     routes: [
       { label: 'Calculator', route: 'widgets/calculator/' },
       { label: 'Dots hover effect', route: 'widgets/dots-hover-effect/' },
+      { label: 'Testimonial slider', route: 'widgets/testimonial-slider/' },
     ],
   },
 ];
