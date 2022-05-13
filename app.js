@@ -59,6 +59,7 @@ const features = [
       { label: 'Dots hover effect', route: 'widgets/dots-hover-effect/' },
       { label: 'Testimonial slider', route: 'widgets/testimonial-slider/' },
       { label: 'Animated login form', route: 'widgets/animated-login-form/' },
+      { label: 'Hexagon hover', route: 'widgets/hexagon-hover/' },
     ],
   },
 ];
