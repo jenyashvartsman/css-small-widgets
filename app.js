@@ -60,6 +60,10 @@ const features = [
       { label: 'Testimonial slider', route: 'widgets/testimonial-slider/' },
       { label: 'Animated login form', route: 'widgets/animated-login-form/' },
       { label: 'Hexagon hover', route: 'widgets/hexagon-hover/' },
+      {
+        label: 'Swiper slider gallery',
+        route: 'widgets/swiper-slider-gallery/',
+      },
     ],
   },
 ];

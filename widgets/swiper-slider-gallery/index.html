@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiper slider gallery</title>
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="img/img1.jpg" alt="person" />
+          </div>
+          <div class="details">
+            <h3>John Doe<br /><span>Web Designer</span></h3>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="img/img2.jpg" alt="person" />
+          </div>
+          <div class="details">
+            <h3>John Doe<br /><span>Web Designer</span></h3>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="img/img3.jpg" alt="person" />
+          </div>
+          <div class="details">
+            <h3>John Doe<br /><span>Web Designer</span></h3>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="img/img4.jpg" alt="person" />
+          </div>
+          <div class="details">
+            <h3>John Doe<br /><span>Web Designer</span></h3>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="img/img5.jpg" alt="person" />
+          </div>
+          <div class="details">
+            <h3>John Doe<br /><span>Web Designer</span></h3>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="img/img6.jpg" alt="person" />
+          </div>
+          <div class="details">
+            <h3>John Doe<br /><span>Web Designer</span></h3>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="img/img7.jpg" alt="person" />
+          </div>
+          <div class="details">
+            <h3>John Doe<br /><span>Web Designer</span></h3>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="img/img8.jpg" alt="person" />
+          </div>
+          <div class="details">
+            <h3>John Doe<br /><span>Web Designer</span></h3>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="img/img9.jpg" alt="person" />
+          </div>
+          <div class="details">
+            <h3>John Doe<br /><span>Web Designer</span></h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+          rotate: 60,
+          stretch: 0,
+          depth: 500,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
+    </script>
+  </body>
+</html>
