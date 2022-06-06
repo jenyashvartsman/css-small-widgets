@@ -1,5 +1,11 @@
 const features = [
   {
+    type: 'Buttons',
+    routes: [
+      { label: 'Sketch hover button', route: 'buttons/sketch-hover-button' },
+    ],
+  },
+  {
     type: 'Card',
     routes: [
       { label: 'Box border hover', route: 'cards/box-border-hover/' },
