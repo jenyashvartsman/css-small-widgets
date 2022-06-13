@@ -17,6 +17,7 @@ const features = [
   {
     type: 'Icons',
     routes: [
+      { label: 'Animated stroke icons', route: 'icons/animated-stroke-icons/' },
       { label: 'Glowing social icons', route: 'icons/glowing-social-icons/' },
       { label: 'Icon fill hover', route: 'icons/icon-fill-hover/' },
     ],
